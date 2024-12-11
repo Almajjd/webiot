@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+<body>
+    <div class="layouts">
+    <section class="navbar">
+        <h3>CUYLABS</h3>
+    </section>
+    <section class="page-title">
+        <h3>LED CONTROL</h3>
+    </section>
+    <section class="leds">
+        <div class="led">
+        <img src="led-off.png" class="led-image" id="dapurledimage">
+        <p class="led-location-text">dapur</p>
+        <button class="led-submit" id="ledDapur" onclick="setDapurLed()">Turn On</button>
+    </div>
+    <div class="led">
+        <img src="led-off.png" class="led-image" id="tamuledimage">
+        <p class="led-location-text">Tamu</p>
+        <button class="led-submit" id="ledTamu" onclick="setTamuLed()">Turn On</button>
+    </div>
+    <div class="led">
+        <img src="led-off.png" class="led-image" id="makanledimage">
+        <p class="led-location-text">Ruang Makan</p>
+        <button class="led-submit" id="ledMakan" onclick="setMakanLed()">Turn On</button>
+    </div>
+    <div class="led">
+        <img src="led-off.png" class="led-image" id="toiletledimage">
+        <p class="led-location-text">Toilet</p>
+        <button class="led-submit" id="ledToilet" onclick="setToiletLed()">Turn On</button>
+    </div>
+       
+</section>
+ 
+    <section class="bottombar">
+        <ul>
+            <li> 
+                <a href="led.html"><i class="fa-solid fa-house"></i></a>
+            </li>
+            <li> <a href=""><i class="fa-solid fa-lightbulb"></i></a></li>
+            <li> <a href="">Service</a></li>
+            <li> <a href="">Test</a></li>
+        </ul>
+
+    </section>
+</div>
+    <script src="java.js"></script>
+    
+</body>
+</html>
